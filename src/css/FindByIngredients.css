@@ -1,0 +1,36 @@
+.find-by-ingredients {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .find-by-ingredients label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .find-by-ingredients input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .find-by-ingredients button {
+    background-color: #008cba;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .find-by-ingredients button:hover {
+    background-color: #005b82;
+  }
+  
